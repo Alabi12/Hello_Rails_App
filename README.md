@@ -21,10 +21,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello-Rails-App <a name="about-project"></a>
+# 📖 Hello-World-App <a name="about-project"></a>
 
-**Budget-App**
-This project is build a single app to connect rails as a backend to rails for front end. It needs to fetch data from the database and render to the UI.
+**Hello-World-App**
+This project is build a single app featuring rails for the backend and react for the front end. Users needs to fetch data from the database and render to the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -108,12 +108,16 @@ You can deploy this project using:
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-### Live demo 
+
+### Live demo
 
 Not yet
+
 ### Video presentation
+
 Not yet
-## 👥 Authors <a name="authors"></a>
+
+## 👥 Author <a name="authors"></a>
 
 👤 **Robert**
 
@@ -139,7 +143,6 @@ If you like this project...give it a ⭐️!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microvers for providing this great opportunity and for the project guide as well 👏
-
 
 ## 📝 License <a name="license"></a>
 
