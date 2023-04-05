@@ -1,0 +1,23 @@
+// components/Greeting.js
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import getData from "../redux/getData";
+
+function Greeting() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getData());
+  }, [dispatch]);
+
+  const message = useSelector((state) => state.text);
+  console.log(message);
+
+  return (
+    <div>
+      <h1>{message.data.text}</h1>
+    </div>
+  );
+}
+
+export default Greeting;
