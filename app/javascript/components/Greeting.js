@@ -15,7 +15,7 @@ function Greeting() {
 
   return (
     <div>
-      <h1>{message.data.text}</h1>
+      <h1>{message.data.greeting}</h1>
     </div>
   );
 }

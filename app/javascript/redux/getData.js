@@ -4,10 +4,11 @@ const getData = createAsyncThunk("greetings", async () => {
   try {
     const text = await fetch("http://127.0.0.1:5000/api/greetings");
     const data = await text.json();
-    if (data.text) {
+    console.log(data);
+    if (data.greeting) {
       return {
         success: true,
-        data: data.text,
+        data,
       };
     }
   } catch (e) {
