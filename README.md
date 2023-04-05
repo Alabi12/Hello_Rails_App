@@ -21,10 +21,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Budget-App <a name="about-project"></a>
+# 📖 Hello-Rails-App <a name="about-project"></a>
 
 **Budget-App**
-The project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+This project is build a single app to connect rails as a backend to rails for front end. It needs to fetch data from the database and render to the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
